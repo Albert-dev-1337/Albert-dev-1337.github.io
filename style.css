@@ -1,0 +1,49 @@
+* {
+margin: 0;
+padding: 0;
+}   
+
+* {
+box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: monospace, serif;
+    text-align: center;
+    background-color: rgb(227, 170, 170);
+}
+
+table, th, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+    background-color:aquamarine;
+    margin: 50px auto; 
+    line-height: 1.4;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    font-family: monospace;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace, serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(227, 170, 170);
+    margin: auto auto;
+    font-size: 25px;
+}
